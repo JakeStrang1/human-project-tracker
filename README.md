@@ -1,5 +1,5 @@
-# human-project-tracker
-_An issue tracker for humanproject.info_
+# Humanproject.info
+_This repo is a public issue tracker_
 An API for generating a fictional human from Earth based on statistical data.
 
 ## Try it!
