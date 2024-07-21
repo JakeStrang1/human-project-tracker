@@ -1,5 +1,4 @@
-# Humanproject.info
-_This repo is a public issue tracker_
+# Humanproject.info – the issue tracker
 An API for generating a fictional human from Earth based on statistical data.
 
 ## Try it!
@@ -8,7 +7,7 @@ Go to [https://humanproject.info/human](https://humanproject.info/human).
 
 ## What is it...
 
-Humanproject.info is an API that generates a statistically random human. When you go to [https://humanproject.info/human](https://humanproject.info/human), you'll get a payload that contains the attributes of a new random human. Right now the only attributes are `data.nationality` and `data.gender`. You can also see meta information for these attributes, like the probability of each value attribute, the publicly-available dataset where this information comes from, and the [surprise index](#surprise-index).
+Humanproject.info is an API that generates a statistically random human. When you go to [https://humanproject.info/human](https://humanproject.info/human), you'll get a payload that contains the attributes of a new random human. Right now the only attributes are `data.nationality` and `data.gender`. You can also see meta information for these attributes, like the probability of each value, the publicly-available dataset where this information comes from, and the [surprise index](#surprise-index).
 
 I want this to be used primarily as a perspective tool. Right now our "human" is looking pretty sparse, but I hope we can add many more attributes to round them out like age, income, education, health situation, ethnicity, family, sexual identity, values, and especially, a name. We can try to get a picture of what our neighbours around the world might be like. We can pose questions: "How does my life situation compare to what I see represented in this data?", "How do the results change if I lock in a particular attribute like nationality or age?", "Who do I _not_ see represented in this data?"
 
@@ -59,7 +58,7 @@ _If the surprise index is one million, then your result is literally 'one in a m
 
 The surprise index here corresponds to the likelihood of getting a result of _equal or lesser probability_ than the actual result. If your actual result has a surprise index of 20 then that means you had a 1 in _20_ chance of getting a result as rare or rarer than your actual result. Put differently, if we generate random humans over and over (an admittedly addicting pastime for nerds like me) and check their surprise index, we expect it to take on average 20 attempts to see a result with a surprise index as high as 20.
 
-If your surprise index is 1, then you had a 1 in 1 (i.e. 100%) chance of getting a result as rare or rarer than your actual result. AKA, you got the most common result!
+If your surprise index is 1, then you had a 1 in 1 (i.e. 100%) chance of getting a result as rare or rarer than your actual result. AKA, you got the most common result.
 
 ## Progress
 _See what's next on the roadmap and how we got here_
