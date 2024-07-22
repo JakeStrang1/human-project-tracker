@@ -56,7 +56,7 @@ AKA, how cool is my result??
 
 _If the surprise index is one million, then your result is literally 'one in a million ✨'._
 
-The surprise index here corresponds to the likelihood of getting a result of _equal or lesser probability_ than the actual result. If your actual result has a surprise index of 20 then that means you had a 1 in _20_ chance of getting a result as rare or rarer than your actual result. Put differently, if we generate random humans over and over (an admittedly addicting pastime for nerds like me) and check their surprise index, we expect it to take on average 20 attempts to see a result with a surprise index as high as 20.
+The surprise index here corresponds to the likelihood of getting a result of _equal or lesser probability_ than your actual result. If your actual result has a surprise index of 20 then that means you had a 1 in _20_ chance of getting a result as rare or rarer than your actual result. Put differently, if we generate random humans over and over (an admittedly addicting pastime for nerds like me) and check their surprise index, we expect it to take on average 20 attempts to see a result with a surprise index as high as 20.
 
 If your surprise index is 1, then you had a 1 in 1 (i.e. 100%) chance of getting a result as rare or rarer than your actual result. AKA, you got the most common result.
 
