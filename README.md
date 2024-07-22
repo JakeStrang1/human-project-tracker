@@ -7,7 +7,7 @@ Go to [https://humanproject.info/human](https://humanproject.info/human).
 
 ## What is it...
 
-Humanproject.info is an API that generates a statistically random human. When you go to [https://humanproject.info/human](https://humanproject.info/human), you'll get a payload that contains the attributes of a new random human. Right now the only attributes are `data.nationality` and `data.gender`. You can also see meta information for these attributes, like the probability of each value, the publicly-available dataset where this information comes from, and the [surprise index](#surprise-index).
+Humanproject.info is an API that generates a statistically random human. When you go to [https://humanproject.info/human](https://humanproject.info/human), you'll get a payload that contains the attributes of a new random human. Right now the only attributes are `data.nationality` and `data.gender`. You can also see meta information for how these attributes were generated, like the probability of the result you received, the publicly-available dataset where this information comes from, and the [surprise index](#surprise-index).
 
 I want this to be used primarily as a perspective tool. Right now our "human" is looking pretty sparse, but I hope we can add many more attributes to round them out like age, income, education, health situation, ethnicity, family, sexual identity, values, and especially, a name. We can try to get a picture of what our neighbours around the world might be like. We can pose questions: "How does my life situation compare to what I see represented in this data?", "How do the results change if I lock in a particular attribute like nationality or age?", "Who do I _not_ see represented in this data?"
 
